@@ -60,11 +60,6 @@ A cloud-based telecom customer support portal built with **Flask** and hosted on
 - `tickets` — Customer support requests
 - `orders` — Service purchase records
 
-## 📸 Screenshots
-
-| Home Page | Dashboard |
-|-----------|-----------|
-| ![Home](static/home.png) | ![Dashboard](static/dashboard.png) |
 
 ## 👩‍💻 Developed By
 
