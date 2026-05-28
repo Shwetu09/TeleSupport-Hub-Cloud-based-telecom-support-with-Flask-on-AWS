@@ -8,22 +8,12 @@ app.secret_key = "secretkey"
 dbconfig = {
     "host": "telesupporthub.cpu6q8g46i2l.ap-south-1.rds.amazonaws.com",
     "user": "admin",
-    "password": "shweta#99",
+    "password": "YOUR PASSWORD",
     "database": "telesupporthub",
     "port": 3306
 }
 
 pool = pooling.MySQLConnectionPool(pool_name="mypool", pool_size=5, **dbconfig)
-
-# dbconfig = {
-#     "host": "localhost",
-#     "user": "root",
-#     "password": "@1919shwetu#",
-#     "database": "telesupporthub",
-#     "port": 3306
-# }
-
-# pool = pooling.MySQLConnectionPool(pool_name="mypool", pool_size=5, **dbconfig)
 
 
 @app.route('/')
